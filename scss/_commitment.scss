@@ -1,0 +1,14 @@
+#commitment-container {
+    width: 100%;
+    background-image: url("/img/commitment-banner.png");
+    height: 350px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 765px) {
+   .commitment {
+       p {
+           font-size: 2vh;
+       }
+   }
+}

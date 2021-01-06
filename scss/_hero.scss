@@ -1,0 +1,52 @@
+#hero-container {
+    padding-top: 4%;
+    max-width: 100%;
+    .hero-banner {
+        display: none;
+    }
+
+    .full-banner {
+        background-image: url("/img/full-banner.png");
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    #hero-container {
+    padding-top: 2%;
+        .hero-banner {
+            display: block;
+            height: 500px;
+            background: #6363d8;
+            margin: 0;
+            h6 {
+                padding-top: 2vh;
+                color: white;
+                padding-left: 1vh;
+                font-weight: 400;
+            
+            }
+            h1 {
+                padding-left: 1vh;
+                color: white;
+                font-weight: 700;
+                width: 80%;
+                border-bottom: 3px dashed white;
+                padding-bottom: 2vh;
+            }
+
+            .sub-text-banner {
+                margin-top: 0;
+                padding-top: 0;
+            }
+        }
+        
+    }
+
+    .full-banner {
+        display: none;
+    }
+}
